@@ -1,11 +1,10 @@
-import { MainComponentHolder } from "./components/MainComponentHolder";
-
-
+import React from "react";
+import { VerificationComponentsHolder } from "./components/VerificationComponentsHolder";
 
 function App() {
   return (
     <div >
-       <MainComponentHolder />
+    <VerificationComponentsHolder />
     </div>
   );
 }
